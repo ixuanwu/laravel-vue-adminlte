@@ -1,0 +1,11 @@
+{
+  "extends": "vue",
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  }
+}

@@ -1,0 +1,13 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+npm-debug.log
+/public/js/app.*
+/public/css/app.*
+public/mix-manifest.json
+public/hot
