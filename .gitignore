@@ -11,3 +11,4 @@ npm-debug.log
 /public/css/app.*
 public/mix-manifest.json
 public/hot
+/yarn-error.log

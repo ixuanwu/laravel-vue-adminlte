@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import axios from 'axios'
 import $ from 'jquery'
 import Tether from 'tether'
 import Router from 'vue-router'
@@ -10,6 +11,8 @@ Vue.config.productionTip = false
 
 Vue.use(Router)
 
-window.jQuery = $
+window.jQuery = window.$ = $
+window.axios = axios
 window.Tether = Tether
+
 require('bootstrap')
